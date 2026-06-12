@@ -24,6 +24,21 @@ Use a private GitHub/GitLab repository, e.g.
 gaia-coordinate-vault
 ```
 
+## Current status
+
+- Local Git repository initialized on 2026-06-13.
+- Default branch: `main`
+- Initial commit: `317f4f4` (`Initial Gaia Coordinate vault`)
+- Remote URL: pending Piakman's existing Git repository URL
+
+To connect the existing remote repo:
+
+```bash
+cd /Users/pm/Documents/Gaia_Coordinate_Vault
+git remote add origin <REMOTE_URL>
+git push -u origin main
+```
+
 ## Standard workflow
 
 ### Gaia side

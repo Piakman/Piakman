@@ -23,6 +23,7 @@ tags:
 
 - [[Agent Protocol]]
 - [[Telegram Coordination]]
+- [[Git Sync Workflow]]
 - [[../02_Tasks/Task Board|Task Board]]
 - [[../02_Tasks/Decision Log|Decision Log]]
 - [[../03_Projects/Air Conditioning/Air Conditioning Project Dashboard|Air Conditioning Project Dashboard]]
