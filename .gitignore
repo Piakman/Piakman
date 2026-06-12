@@ -1,0 +1,27 @@
+# Obsidian local/cache files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/*/data.json
+.trash/
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Attachments / heavy files policy
+# Keep markdown source in git. Add large PDFs/videos/data only intentionally.
+99_Attachments/large/
+*.tmp
+*.bak
+
+# Secrets - never commit
+.env
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
