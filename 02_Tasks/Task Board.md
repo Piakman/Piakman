@@ -15,6 +15,8 @@ tags: [task-board, gaia-coordinate]
 
 ## Active
 
+- [ ] [[AC-TA-002 - TA Git Writeback and Air Conditioning Inventory]] — owner: TA_YK — verify git writeback and inventory Air Conditioning work
+
 ```dataview
 TABLE owner, status, priority, project, due, file.mtime AS modified
 FROM "02_Tasks"
