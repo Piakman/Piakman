@@ -28,3 +28,11 @@ tags: [decision-log, gaia-coordinate]
 - Required action: Piakman must either add `ClassicmanJames` as collaborator with **Write** permission or add TA_YK server SSH deploy key with **Allow write access**.
 - Waiting on: GitHub permission update.
 - Next action after permission fix: TA_YK runs `git push`; Gaia pulls and verifies `05_Outputs/TA_YK/AC-TA-002 - Air Conditioning Status.md`.
+
+## 2026-06-13 — AC-TA-002 resolved: bidirectional Git writeback proven
+
+- Context: GitHub write access fixed; TA_YK pushed the AC-TA-002 output (local `1eec43c` → landed as `07fdad9` after rebase onto `47c48e2`).
+- Gaia verified: pulled branch, confirmed `05_Outputs/TA_YK/AC-TA-002 - Air Conditioning Status.md` present with all 7 sections.
+- Outcome: Shared vault works in both directions over Git. AC-TA-002 marked **done**; task board updated.
+- Air Conditioning state (per TA_YK): Ch 1–4 drafted, 26 topics with content/examples/exercises, 22/26 per-topic slides. Only gap = 4 Chapter-2 `slides.md`.
+- Candidate next task (AC-TA-003): close the Chapter-2 slide gap.

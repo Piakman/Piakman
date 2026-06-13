@@ -1,7 +1,7 @@
 ---
 type: task
 id: AC-TA-002
-status: blocked
+status: done
 owner: TA_YK
 project: Air Conditioning
 priority: 1
@@ -140,3 +140,14 @@ After write access is fixed and TA_YK pushes, Gaia will:
 2. verify the output file exists
 3. read and summarize TA_YK status for Piakman
 4. update task board / decision log if needed
+
+## Gaia verification — 2026-06-13 ✅ DONE
+
+Write access fixed; TA_YK pushed successfully.
+
+- `git pull --rebase` → already up to date; remote tip on `gaia-coordinate-vault` = `07fdad9` *TA_YK Air Conditioning status inventory*
+- Output file present: `05_Outputs/TA_YK/AC-TA-002 - Air Conditioning Status.md` ✓ (4494 bytes)
+- All 7 required sections present, frontmatter `status: done`, no remaining blockers.
+- Note on hash: TA_YK reported local commit `1eec43c`; after `pull --rebase` onto Gaia's blocker commit (`47c48e2`) the landed commit is `07fdad9` (same content, recommitted by rebase).
+
+**Bidirectional Git writeback is now proven.** Task closed.
