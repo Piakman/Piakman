@@ -94,6 +94,17 @@ TA_YK preferred format:
 - Slides: Marp Markdown → PDF; chapter-level `.pptx` in English when needed
 - Long detail goes into vault files; Telegram replies remain concise
 
+## Scheduled Zoom meeting
+
+- Date: Monday, 15 June 2026
+- Meeting time: 17:00 ICT
+- Host/open time: 16:55 ICT
+- PMI: `689 141 0214`
+- Invitation link: `https://cmu-th.zoom.us/j/6891410214`
+- Password: none requested
+- Local automation: Hermes cron job `77a1e4181fd1` opens the meeting at 16:55.
+- macOS Calendar: event created in calendar `Home` with reminder 5 minutes before.
+
 ## SSH / direct access upgrade path
 
 Current workflow uses Git + Telegram group.
