@@ -23,6 +23,19 @@ tags:
 
 Session `254442` is the active Gaia ↔ TA_YK collaboration session for preparing teaching documents for the **Air Conditioning** course.
 
+## Local Hermes review session
+
+Opened on Piakman's Mac for live teaching-document review:
+
+- Hermes process session handle: `proc_39c1f4db6aa1`
+- PID: `73143`
+- Working directory: `/Users/pm/Documents/Gaia_Coordinate_Vault`
+- Activated skills: `obsidian`, `github-repo-management`
+- Intended title: `254442`
+- Role: standby assistant for reading, checking, and summarizing Air Conditioning teaching documents
+
+Use this session when Piakman wants an additional Hermes instance to help inspect lesson documents while Gaia coordinates the shared vault.
+
 ## Communication channel
 
 - Primary coordination: Telegram group `Gaia_Coordinate`
