@@ -27,17 +27,18 @@ gaia-coordinate-vault
 ## Current status
 
 - Local Git repository initialized on 2026-06-13.
-- Default branch: `main`
+- Repository default/general branch: `main` is reserved for future repo-level or other-project use.
+- Active vault branch: `gaia-coordinate-vault`
 - Initial commit: `317f4f4` (`Initial Gaia Coordinate vault`)
-- Remote URL: `git@github.com-gaia-coordinate:Piakman/Piakman.git`
+- Remote URL used by Gaia: `git@github.com-gaia-coordinate:Piakman/Piakman.git`
 - GitHub repo: `https://github.com/Piakman/Piakman`
-- Latest pushed commit: `492abfd56c3ded4b8a527bcd527c0db3e7f19d64`
-- Status: pushed successfully to GitHub on 2026-06-13
+- Latest vault branch before this note update: `99df45bca6f4de523eca56b8aae55cbc0823b473`
+- Status: vault moved from `main` workflow to dedicated branch `gaia-coordinate-vault` on 2026-06-13
 
 TA_YK clone command:
 
 ```bash
-git clone git@github.com:Piakman/Piakman.git Gaia_Coordinate_Vault
+git clone --branch gaia-coordinate-vault git@github.com:Piakman/Piakman.git Gaia_Coordinate_Vault
 cd Gaia_Coordinate_Vault
 ```
 
