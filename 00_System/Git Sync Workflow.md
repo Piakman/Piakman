@@ -44,6 +44,21 @@ cd Gaia_Coordinate_Vault
 
 If TA_YK does not have SSH access to the repo yet, Piakman must grant access or add TA_YK server's SSH deploy key/user key to the GitHub repository.
 
+## TA_YK direct SSH upgrade
+
+Gaia prepared a dedicated SSH key and setup note for direct TA_YK communication:
+
+```text
+00_System/TA_YK Direct SSH Setup.md
+```
+
+Current status:
+
+- AnyDesk connection to TA_YK reached the remote macOS lock screen.
+- SSH public key has been generated and sent to TA_YK/admin.
+- Waiting for TA_YK/admin to install the public key, enable Remote Login/SSH, and provide SSH host/IP/port.
+- No passwords or private keys are stored in the vault.
+
 ## TA_YK write access setup
 
 TA_YK has cloned successfully, but push requires write permission.
