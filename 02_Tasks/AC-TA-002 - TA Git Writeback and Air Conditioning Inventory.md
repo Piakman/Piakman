@@ -1,7 +1,7 @@
 ---
 type: task
 id: AC-TA-002
-status: active
+status: blocked
 owner: TA_YK
 project: Air Conditioning
 priority: 1
@@ -84,9 +84,57 @@ file: 05_Outputs/TA_YK/AC-TA-002 - Air Conditioning Status.md
 blockers: <none/list>
 ```
 
+## TA_YK report — 2026-06-13
+
+Status: **partially done — push blocked**
+
+TA_YK completed:
+
+- checked out `gaia-coordinate-vault`
+- pulled latest remote state at `22dc0f8`
+- created output folder/file
+- committed locally
+
+TA_YK local commit waiting on server:
+
+```text
+1eec43c TA_YK Air Conditioning status inventory
+```
+
+Output file created locally on TA_YK server but not yet on remote:
+
+```text
+05_Outputs/TA_YK/AC-TA-002 - Air Conditioning Status.md
+```
+
+### Blocker
+
+`git push` was rejected because GitHub account `ClassicmanJames` has pull-only access to `Piakman/Piakman`.
+
+TA_YK reports:
+
+- SSH authentication succeeds as `ClassicmanJames`
+- `ClassicmanJames` is not a collaborator with write access
+- Required fix: grant `ClassicmanJames` write access as collaborator, or add TA_YK server SSH deploy key with write access to the repository
+
+### Air Conditioning status reported by TA_YK
+
+- Subject/repo context: `aircon` is in production
+- Chapters 1–4 complete
+- 26 topics have content, examples, and exercises complete
+- Slides complete for 22/26 topics
+- Missing: 4 slide files in Chapter 2
+- Sources: 10 OCR files plus digest of Thai Engineering Institute standards `031001` / `031010`
+
+### TA_YK proposed next tasks
+
+1. Close Chapter 2 slide gap: create the missing 4 slide files.
+2. Draft Chapter 5.
+3. Cross-check CLTD tables against standards.
+
 ## Gaia verification plan
 
-After TA_YK reports completion, Gaia will:
+After write access is fixed and TA_YK pushes, Gaia will:
 
 1. `git pull --rebase`
 2. verify the output file exists

@@ -20,3 +20,11 @@ tags: [decision-log, gaia-coordinate]
 - Context: TA server authorization is not yet available.
 - Decision: Use Telegram group routing first; later upgrade to SSH/API/Webhook/shared sync if authorized.
 - Working group target: `telegram:Gaia_Coordinate`
+
+## 2026-06-13 — TA_YK push blocked by GitHub write access
+
+- Context: TA_YK successfully cloned the `gaia-coordinate-vault` branch, pulled latest commit `22dc0f8`, created the AC-TA-002 output file, and committed locally as `1eec43c`.
+- Decision/status: Git writeback is blocked because GitHub account `ClassicmanJames` has pull-only access to `Piakman/Piakman`.
+- Required action: Piakman must either add `ClassicmanJames` as collaborator with **Write** permission or add TA_YK server SSH deploy key with **Allow write access**.
+- Waiting on: GitHub permission update.
+- Next action after permission fix: TA_YK runs `git push`; Gaia pulls and verifies `05_Outputs/TA_YK/AC-TA-002 - Air Conditioning Status.md`.

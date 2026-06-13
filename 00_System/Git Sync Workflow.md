@@ -44,6 +44,28 @@ cd Gaia_Coordinate_Vault
 
 If TA_YK does not have SSH access to the repo yet, Piakman must grant access or add TA_YK server's SSH deploy key/user key to the GitHub repository.
 
+## TA_YK write access setup
+
+TA_YK has cloned successfully, but push requires write permission.
+
+Known blocker from AC-TA-002:
+
+- TA_YK server authenticates to GitHub as `ClassicmanJames`
+- `ClassicmanJames` currently has pull-only access to `Piakman/Piakman`
+- TA_YK local commit waiting to push: `1eec43c`
+
+Fix options:
+
+1. Add GitHub user `ClassicmanJames` as collaborator with **Write** access to `Piakman/Piakman`.
+2. Or add TA_YK server SSH public key as a repository deploy key with **Allow write access**.
+
+After permission is fixed, TA_YK should run:
+
+```bash
+cd Gaia_Coordinate_Vault
+git push
+```
+
 ## Standard workflow
 
 ### Gaia side

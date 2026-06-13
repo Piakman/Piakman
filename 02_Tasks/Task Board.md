@@ -15,7 +15,7 @@ tags: [task-board, gaia-coordinate]
 
 ## Active
 
-- [ ] [[AC-TA-002 - TA Git Writeback and Air Conditioning Inventory]] — owner: TA_YK — verify git writeback and inventory Air Conditioning work
+- [ ] [[AC-TA-002 - TA Git Writeback and Air Conditioning Inventory]] — owner: TA_YK — **blocked: GitHub user `ClassicmanJames` has pull-only access; needs write collaborator or write deploy key**
 
 ```dataview
 TABLE owner, status, priority, project, due, file.mtime AS modified
