@@ -29,15 +29,19 @@ gaia-coordinate-vault
 - Local Git repository initialized on 2026-06-13.
 - Default branch: `main`
 - Initial commit: `317f4f4` (`Initial Gaia Coordinate vault`)
-- Remote URL: pending Piakman's existing Git repository URL
+- Remote URL: `git@github.com-gaia-coordinate:Piakman/Piakman.git`
+- GitHub repo: `https://github.com/Piakman/Piakman`
+- Latest pushed commit: `492abfd56c3ded4b8a527bcd527c0db3e7f19d64`
+- Status: pushed successfully to GitHub on 2026-06-13
 
-To connect the existing remote repo:
+TA_YK clone command:
 
 ```bash
-cd /Users/pm/Documents/Gaia_Coordinate_Vault
-git remote add origin <REMOTE_URL>
-git push -u origin main
+git clone git@github.com:Piakman/Piakman.git Gaia_Coordinate_Vault
+cd Gaia_Coordinate_Vault
 ```
+
+If TA_YK does not have SSH access to the repo yet, Piakman must grant access or add TA_YK server's SSH deploy key/user key to the GitHub repository.
 
 ## Standard workflow
 
