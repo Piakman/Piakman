@@ -1,23 +1,20 @@
 ---
 type: meeting-schedule
-project: Air Conditioning
-session_id: 254442
 created: 2026-06-13
 updated: 2026-06-13
 tags:
   - meeting-schedule
   - zoom
-  - air-conditioning
-  - session/254442
+  - general
 ---
 
-# Meeting Schedule - Air Conditioning
+# Meeting Schedule
 
-ตารางนัดหมายและขั้นตอนเปิดห้องสำหรับ session [[254442 - Teaching Session|254442]]
+ตารางนัดหมายทั่วไปของ Piakman / Gaia ไม่ผูกกับ project หรือ session ใดเป็นพิเศษ
 
 | Date | Time | Open room | Topic | Host / Tool | Meeting ID / PMI | Link | Password | Status | Notes |
 |---|---:|---:|---|---|---|---|---|---|---|
-| 2026-06-15 Mon | 17:00 ICT | 16:55 ICT | Air Conditioning teaching-document collaboration | Zoom PMI / Piakman host | `689 141 0214` | https://cmu-th.zoom.us/j/6891410214 | None requested | Scheduled | macOS Calendar event created in `Home`; Hermes cron job `77a1e4181fd1` will open Zoom 5 minutes before meeting. Invitation sent via Telegram DM; LINE deferred. |
+| 2026-06-15 Mon | 17:00 ICT | 16:55 ICT | Zoom meeting | Zoom PMI / Piakman host | `689 141 0214` | https://cmu-th.zoom.us/j/6891410214 | None requested | Scheduled | macOS Calendar event created in `Home`; Hermes cron job `77a1e4181fd1` will open Zoom 5 minutes before meeting. Invitation sent via Telegram DM; LINE deferred. |
 
 ## Zoom opening workflow
 

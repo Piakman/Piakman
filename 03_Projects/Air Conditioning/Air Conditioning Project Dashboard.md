@@ -28,7 +28,6 @@ Create teaching documents for the Air Conditioning course.
 ## Project notes
 
 - [[254442 - Teaching Session]]
-- [[Meeting Schedule]]
 - [[Teaching Document Plan]]
 - [[Source Materials]]
 - [[Draft Index]]

@@ -25,6 +25,7 @@ tags:
 - [[Telegram Coordination]]
 - [[Git Sync Workflow]]
 - [[../02_Tasks/Task Board|Task Board]]
+- [[../02_Tasks/Meeting Schedule|Meeting Schedule]]
 - [[../02_Tasks/Decision Log|Decision Log]]
 - [[../03_Projects/Air Conditioning/Air Conditioning Project Dashboard|Air Conditioning Project Dashboard]]
 - [[../04_Research/Research Delegation Inbox|Research Delegation Inbox]]
