@@ -69,6 +69,6 @@ Subject `aircon` ("Air Conditioning") is **actively in production**. 4 of the pl
 
 ## 7. Blockers / permissions needed
 
-- **None blocking.** Git push to `Piakman/Piakman` works (SSH key authorized).
+- None blocking. Git push to `Piakman/Piakman` works (SSH key authorized). Session `254442` opened for continuing Air Conditioning teaching-document collaboration.
 - Note: raw aircon textbook PDF is a **scan** — must stay OCR-digested; do not re-parse raw PDF.
 - macOS Full Disk Access required for the iCloud-backed Obsidian vault path (already granted on this server).

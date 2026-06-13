@@ -30,6 +30,13 @@ tags:
 - Earlier direct message to `@hermes_piakman_bot` could not be resolved by Gaia gateway.
 - Group routing is the working method for now.
 
+## Active session
+
+- Session: `254442`
+- Purpose: Gaia ↔ TA_YK collaboration for Air Conditioning teaching documents
+- Session note: [[../03_Projects/Air Conditioning/254442 - Teaching Session]]
+- Current next task: [[../02_Tasks/AC-TA-003 - Close Chapter 2 Slide Gap]]
+
 ## Recommended first group protocol
 
 1. Piakman or Gaia posts a task using the standard task format.

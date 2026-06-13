@@ -15,7 +15,8 @@ tags: [task-board, gaia-coordinate]
 
 ## Active
 
-_(none)_
+- [x] [[AC-TA-002 - TA Git Writeback and Air Conditioning Inventory]] — owner: TA_YK — git writeback confirmed; Air Conditioning inventory received
+- [ ] [[AC-TA-003 - Close Chapter 2 Slide Gap]] — owner: TA_YK — session `254442`; create 4 missing Chapter 2 per-topic `slides.md` files
 
 ```dataview
 TABLE owner, status, priority, project, due, file.mtime AS modified

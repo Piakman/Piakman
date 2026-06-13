@@ -24,10 +24,17 @@ tags: [decision-log, gaia-coordinate]
 ## 2026-06-13 — TA_YK push blocked by GitHub write access
 
 - Context: TA_YK successfully cloned the `gaia-coordinate-vault` branch, pulled latest commit `22dc0f8`, created the AC-TA-002 output file, and committed locally as `1eec43c`.
-- Decision/status: Git writeback is blocked because GitHub account `ClassicmanJames` has pull-only access to `Piakman/Piakman`.
-- Required action: Piakman must either add `ClassicmanJames` as collaborator with **Write** permission or add TA_YK server SSH deploy key with **Allow write access**.
-- Waiting on: GitHub permission update.
-- Next action after permission fix: TA_YK runs `git push`; Gaia pulls and verifies `05_Outputs/TA_YK/AC-TA-002 - Air Conditioning Status.md`.
+- Decision/status: Git writeback was initially blocked because GitHub account `ClassicmanJames` had pull-only access to `Piakman/Piakman`.
+- Resolution: TA_YK later pushed successfully; landed commit after rebase reported in task note as `07fdad9`.
+- Outcome: Bidirectional Git writeback is proven.
+
+## 2026-06-13 — Open session 254442 for Air Conditioning teaching work
+
+- Context: Piakman requested an active communication/work session with TA_YK for course/topic `254442` to prepare Air Conditioning teaching documents.
+- Decision: Open session `254442` as the active Gaia ↔ TA_YK collaboration session.
+- Current focus: close Chapter 2 slide gap, then draft Chapter 5 and cross-check CLTD/ventilation standards.
+- SSH upgrade path: if Piakman later obtains SSH authentication key/access from the TA_YK machine, coordination can be upgraded from Git+Telegram to direct SSH verification/automation.
+- Session note: `03_Projects/Air Conditioning/254442 - Teaching Session.md`
 
 ## 2026-06-13 — AC-TA-002 resolved: bidirectional Git writeback proven
 

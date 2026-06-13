@@ -21,8 +21,13 @@ Create teaching documents for the Air Conditioning course.
 - Gaia_YK — coordinator and editor
 - **TA_YK** — Teaching Assistant, high-token drafting support
 
+## Active session
+
+- [[254442 - Teaching Session]] — Gaia ↔ TA_YK collaboration for Air Conditioning teaching documents
+
 ## Project notes
 
+- [[254442 - Teaching Session]]
 - [[Teaching Document Plan]]
 - [[Source Materials]]
 - [[Draft Index]]

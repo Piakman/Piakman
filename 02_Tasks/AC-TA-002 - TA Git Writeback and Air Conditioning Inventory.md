@@ -86,7 +86,7 @@ blockers: <none/list>
 
 ## TA_YK report — 2026-06-13
 
-Status: **partially done — push blocked**
+Status: **done — push confirmed after permission fix/rebase**
 
 TA_YK completed:
 
@@ -94,28 +94,29 @@ TA_YK completed:
 - pulled latest remote state at `22dc0f8`
 - created output folder/file
 - committed locally
+- pushed successfully after write access was resolved
 
-TA_YK local commit waiting on server:
+TA_YK original local commit:
 
 ```text
 1eec43c TA_YK Air Conditioning status inventory
 ```
 
-Output file created locally on TA_YK server but not yet on remote:
+Landed remote commit after rebase:
+
+```text
+07fdad9 TA_YK Air Conditioning status inventory
+```
+
+Output file now present on remote:
 
 ```text
 05_Outputs/TA_YK/AC-TA-002 - Air Conditioning Status.md
 ```
 
-### Blocker
+### Access status
 
-`git push` was rejected because GitHub account `ClassicmanJames` has pull-only access to `Piakman/Piakman`.
-
-TA_YK reports:
-
-- SSH authentication succeeds as `ClassicmanJames`
-- `ClassicmanJames` is not a collaborator with write access
-- Required fix: grant `ClassicmanJames` write access as collaborator, or add TA_YK server SSH deploy key with write access to the repository
+Bidirectional Git writeback is confirmed working for TA_YK.
 
 ### Air Conditioning status reported by TA_YK
 
