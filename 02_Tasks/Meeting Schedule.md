@@ -12,6 +12,27 @@ tags:
 
 ตารางนัดหมายทั่วไปของ Piakman / Gaia ไม่ผูกกับ project หรือ session ใดเป็นพิเศษ
 
+## Reusable Zoom ID
+
+Piakman's standing Zoom PMI:
+
+```text
+689 141 0214
+```
+
+Reusable invitation link:
+
+```text
+https://cmu-th.zoom.us/j/6891410214
+```
+
+Usage notes:
+
+- This PMI is a general reusable Zoom ID, not tied to one project/session.
+- It may be used for teaching sessions, student meetings, research meetings, or other appointments as needed.
+- When a meeting is course-specific, record the course/session in the table row `Topic` or `Notes`, rather than making this whole schedule note project-specific.
+- Password status for the currently scheduled meeting: none requested.
+
 | Date | Time | Open room | Topic | Host / Tool | Meeting ID / PMI | Link | Password | Status | Notes |
 |---|---:|---:|---|---|---|---|---|---|---|
 | 2026-06-15 Mon | 17:00 ICT | 16:55 ICT | Zoom meeting | Zoom PMI / Piakman host | `689 141 0214` | https://cmu-th.zoom.us/j/6891410214 | None requested | Scheduled | macOS Calendar event created in `Home`; Hermes cron job `77a1e4181fd1` will open Zoom 5 minutes before meeting. Invitation sent via Telegram DM; LINE deferred. |
