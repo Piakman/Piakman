@@ -96,6 +96,8 @@ TA_YK preferred format:
 
 ## Scheduled Zoom meeting
 
+See [[Meeting Schedule]] for the appointment table and opening workflow.
+
 - Date: Monday, 15 June 2026
 - Meeting time: 17:00 ICT
 - Host/open time: 16:55 ICT
@@ -104,6 +106,7 @@ TA_YK preferred format:
 - Password: none requested
 - Local automation: Hermes cron job `77a1e4181fd1` opens the meeting at 16:55.
 - macOS Calendar: event created in calendar `Home` with reminder 5 minutes before.
+- Invitation delivery: Telegram DM sent; LINE deferred until a safe target is available.
 
 ## SSH / direct access upgrade path
 
