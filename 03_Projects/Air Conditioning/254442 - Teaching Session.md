@@ -8,7 +8,7 @@ coordinator: Gaia_YK
 assistant: TA_YK
 status: active
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-14
 tags:
   - session/254442
   - air-conditioning
@@ -41,6 +41,28 @@ Use this session when Piakman wants an additional Hermes instance to help inspec
 - Primary coordination: Telegram group `Gaia_Coordinate`
 - Shared source of truth: Git/Obsidian vault branch `gaia-coordinate-vault`
 - Repository: `https://github.com/Piakman/Piakman`
+
+## Current Telegram continuation — 2026-06-14
+
+Piakman asked Gaia to fold the current Telegram work into session `254442`. Hermes cannot literally merge two SQLite/chat transcripts after the fact, but this note is now the durable handoff/source-of-truth record for the current continuation.
+
+Work completed in this continuation:
+
+- Saved English Word sheet for Topic 1.1:
+  - `05_Outputs/Air Conditioning/English Sheets/Air Con Chapter 1 Topic 1.1 - English Sheet.docx`
+  - commit `67ce053`
+- Created visual-led English lecture deck for Topic 1.1, then regenerated it after Piakman requested removing the bottom `Teaching point` bars:
+  - `05_Outputs/Air Conditioning/English Slides/Air Con Chapter 1 Topic 1.1 - Visual Lecture Deck.pptx`
+  - latest related commit `f4dbc01`
+- Saved English Word sheet for Topic 1.2 without overwriting Topic 1.1:
+  - `05_Outputs/Air Conditioning/English Sheets/Air Con Chapter 1 Topic 1.2 - English Sheet.docx`
+  - commit `5d6102a`
+- Created visual-led English lecture deck for Topic 1.2, ~15 minutes, without bottom `Teaching point` bars:
+  - `05_Outputs/Air Conditioning/English Slides/Air Con Chapter 1 Topic 1.2 - Visual Lecture Deck.pptx`
+  - commit `f4dbc01`
+
+Current instruction from Piakman: treat this Telegram continuation as part of `254442` going forward and use the files above as the current master drafts for comments/revisions.
+
 
 ## Active agents
 
