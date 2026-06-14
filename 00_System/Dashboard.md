@@ -25,6 +25,7 @@ tags:
 - [[Telegram Coordination]]
 - [[Git Sync Workflow]]
 - [[TA_YK Direct SSH Setup]]
+- [[Academic English Style Guide]]
 - [[../02_Tasks/Task Board|Task Board]]
 - [[../02_Tasks/Meeting Schedule|Meeting Schedule]]
 - [[../02_Tasks/Decision Log|Decision Log]]
